@@ -40,8 +40,8 @@ public class ArrayUnidimensional {
 		int[] alarms;
 
 		/*
-		 * Declaração válida e equivalente as declarações anteriores Essa é uma sintáxe
-		 * manos comum e raramente é utilizada
+		 * Declaração válida e equivalente as declarações anteriores 
+		 * Essa é uma sintáxe menos comum e raramente é utilizada
 		 */
 		String names[];
 		int numbers[];
@@ -49,9 +49,10 @@ public class ArrayUnidimensional {
 		/** Inicializando arrays unidimencionais */
 
 		/*
-		 * A inicialização de um array é semelhante a inicialização de um objeto Usa-se
-		 * o operador new seguido do tipo, em seguida os colchetes contendo o tamanho do
-		 * array. Abaixo, todas são maneiras de inicializar um array com o operador new
+		 * A inicialização de um array é semelhante a inicialização de um objeto 
+		 * Usa-se o operador new seguido do tipo, em seguida os colchetes contendo 
+		 * o tamanho do array. 
+		 * Abaixo, todas são maneiras de inicializar um array com o operador new
 		 */
 		String[] titlesOfBooks = new String[3];
 		String emails[] = new String[3];
@@ -61,10 +62,9 @@ public class ArrayUnidimensional {
 		int[] codesErrors = new int[3];
 
 		/*
-		 * Também é possível inicializar um array com todos seus valores imadiatamente
-		 * após a declaração, Faz-se isso com a insserção dos valores a serem
+		 * Também é possível inicializar um array com todos seus valores imediatamente
+		 * após a declaração, Faz-se isso com a inserção dos valores a serem
 		 * armazenados entre chaves com cada um dos valores sendo separados por vírgula
-		 * 
 		 */
 		int[] httpCodesStatus = { 200, 300, 400, 500 };
 		String[] zipcodes = { "91250-001", "91250-020", "91250-040" };
@@ -74,8 +74,9 @@ public class ArrayUnidimensional {
 		/*
 		 * São bem fáceis de usar, após sua declaração e inicialização cada elemento do
 		 * array pode ser acessado a partir do seu índice, pois cada elemento do array
-		 * possui um índice assocido a sí. O primeiro índice de um array é sempre 0
-		 * (zero).
+		 * possui um índice assocido a sí. 
+		 * 
+		 * O primeiro índice de um array é sempre 0 (zero).
 		 */
 		String[] weekdays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
 		System.out.printf("weekdays[1]: %s%n", weekdays[1]); // Tuesday
@@ -84,8 +85,8 @@ public class ArrayUnidimensional {
 		System.out.printf("weekdays length: ".concat(Integer.toString(weekdays.length)));
 
 		/*
-		 * Java tem métodos internos para cópia de dados de um array para outro Esses
-		 * métodos copiam os dados e criam dois arrays independentes um do outro
+		 * Java tem métodos internos para cópia de dados de um array para outro 
+		 * Esses métodos copiam os dados e criam dois arrays independentes um do outro
 		 */
 		String[] weekend = new String[2];
 
