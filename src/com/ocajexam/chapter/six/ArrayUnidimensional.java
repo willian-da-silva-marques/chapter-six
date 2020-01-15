@@ -91,13 +91,13 @@ public class ArrayUnidimensional {
 		String[] weekend = new String[2];
 
 		/**
-		 * O método estático arraycopy pertence a classe System, sua assinatura possui
-		 * cinco parâmetros Que são: [src] é o array de origem [srcPos] é a posição
-		 * inicial do array de origem de onde a cópia começará [dest] é o array de
-		 * destino, ou seja é o array em que os dados serão copiados [destPos] á a
-		 * posição inicial em que os dados serão inseridos(copiados) no array de destino
-		 * [length] é o número de elementos que serão copiados do array de origem para o
-		 * array de destino
+		 * O método estático arraycopy pertence a classe System, sua assinatura possui cinco parâmetros 
+		 * Que são: 
+		 * [src] é o array de origem 
+		 * [srcPos] é a posição inicial do array de origem de onde a cópia começará 
+		 * [dest] é o array de destino, ou seja é o array em que os dados serão copiados 
+		 * [destPos] á a posição inicial em que os dados serão inseridos(copiados) no array de destino
+		 * [length] é o número de elementos que serão copiados do array de origem para o array de destino
 		 */
 		System.arraycopy(weekdays, 5, weekend, 0, 2);
 
