@@ -28,7 +28,7 @@ public class ArrayUnidimensional {
 		for (int i = 0; i < arrayOfInts.length; i++) {
 			for (int j = 0; j < titles.length; j++) {
 				if (i == j) {
-//					System.out.println(titles[j] + arrayOfInts[i]);
+					System.out.println(titles[j] + arrayOfInts[i]);
 				}
 			}
 		}
@@ -78,27 +78,28 @@ public class ArrayUnidimensional {
 		 * (zero).
 		 */
 		String[] weekdays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-//		System.out.printf("weekdays[1]: %s%n", weekdays[1]); // Tuesday
-		
+		System.out.printf("weekdays[1]: %s%n", weekdays[1]); // Tuesday
+
 		/* Obtem o tamanho do array */
-//		System.out.printf("weekdays length: ".concat(Integer.toString(weekdays.length)));
-		
-		/* Java tem métodos internos para cópia de dados de um array para outro 
-		 * Esses métodos copiam os dados e criam dois arrays independentes um do outro 
+		System.out.printf("weekdays length: ".concat(Integer.toString(weekdays.length)));
+
+		/*
+		 * Java tem métodos internos para cópia de dados de um array para outro Esses
+		 * métodos copiam os dados e criam dois arrays independentes um do outro
 		 */
 		String[] weekend = new String[2];
-		
+
 		/**
-		 * O método estático arraycopy pertence a classe System, sua assinatura possui cinco parâmetros 
-		 * Que são:
-		 * [src] é o array de origem
-		 * [srcPos] é a posição inicial do array de origem de onde a cópia começará
-		 * [dest] é o array de destino, ou seja é o array em que os dados serão copiados
-		 * [destPos] á a posição inicial em que os dados serão inseridos(copiados) no array de destino
-		 * [length] é o número de elementos que serão copiados do array de origem para o array de destino 
+		 * O método estático arraycopy pertence a classe System, sua assinatura possui
+		 * cinco parâmetros Que são: [src] é o array de origem [srcPos] é a posição
+		 * inicial do array de origem de onde a cópia começará [dest] é o array de
+		 * destino, ou seja é o array em que os dados serão copiados [destPos] á a
+		 * posição inicial em que os dados serão inseridos(copiados) no array de destino
+		 * [length] é o número de elementos que serão copiados do array de origem para o
+		 * array de destino
 		 */
 		System.arraycopy(weekdays, 5, weekend, 0, 2);
-		
+
 		for (String s : weekdays) {
 			System.out.println(s);
 		}
